@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
@@ -48,13 +48,15 @@
 
       <img src="#" width="282px" height="214px" alt="Добро пожаловать в невероятную Седону!">
       <h1 class="main-page__title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p class="main-page__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      <p class="main__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 
-      <section class="advanatges">
+
+<!-- Список преимуществ -->
+
+      <section class="main-page__advanatges advantages">
         <ol class="advatages-list">
 
           <li class="advantages-list__item addvantages-town">
-            <div class="addvantages-town__container">
               <h2 class="advantages-list__title">Настоящий городок</h2>
               <span>— №1 —</span>
               <p class="advantages-list__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
@@ -74,12 +76,11 @@
                   <p class="addvantages-town__description">Не только китайского, но и местного производства!</p>
                 </li>
               </ul>
-            </div>
 
           </li>
 
           <li class="advantages-list__item">
-            <div class="advantages-item__bridge-container">
+            <div class="advantages-list__bridge-container">
               <h2 class="advantages-list__title">Там есть мост дьявола</h2>
               <span>— №2 —</span>
               <p class="advantages-list__description">Да, по нему можно пройти! Если Вы осмелитесь, конечно</p>
@@ -109,8 +110,8 @@
       </section>
 
       <section class="booking">
-        <div class="booking-container">
-          <h1 class="booking__title">Заинтересовались?</h1>
+        <div class="booking__container">
+          <h2 class="booking__title">Заинтересовались?</h2>
           <p class="booking__description">Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
           <button class="booking__button" type="button" href="#">
             Найти гостиницу
@@ -122,9 +123,10 @@
     </main>
 
     <footer class="main-footer">
-      <div class="main-footer-container">
-        <span class="main-footer__slogan">#visitSEDONA</span>
-        <ul class="main-footer__list social-media__list">
+      <span class="main-footer__slogan">#visitSEDONA</span>
+
+      <section class="social-media">
+        <ul class="main-footer__list social-media">
           <li class="social-media__item">
             <a class="social-media__link social-media__link--vkontakte">Мы в Вконтакте</a>
           </li>
@@ -135,10 +137,13 @@
             <a class="social-media__link social-media__link--youtube">Мы в Ютубе</a>
           </li>
         </ul>
-        <div class="main-footer__copyright">
+      </section>
+
+      <div class="main-footer__copyright copyright">
         <span class="copyright__text">Разработано</span>
         <a class="copyright__link copyright__link--htmlacademy" href="#">Htmlacademy</a>
       </div>
+
     </footer>
 
   </body>
